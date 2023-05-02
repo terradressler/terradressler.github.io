@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs #where files are rendered to
 
 website:
   title: "terradressler.github.io"
@@ -13,7 +14,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: true #table of contents
 
 editor: visual
 
